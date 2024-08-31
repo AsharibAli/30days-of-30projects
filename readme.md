@@ -23,7 +23,7 @@ Each project targets a **specific functionality**, designed to be:
 - 🔍 **Focused on practical skills**
 - 🚀 **Great for beginners and intermediate developers**
 
-## 📅 Start Date: [09/01/2024]
+## 📅 Start Date: 01/09/2024
 
 Ready to level up your skills? Let's code! 💻🔥
 
