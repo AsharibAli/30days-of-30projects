@@ -2,6 +2,9 @@
 
 Build **30 exciting projects** in 30 days using latest tech-stack! 💻✨
 
+➡️ Keep an eye on the [Challenge Channel on Discord](https://discord.com/channels/790484092772548613/1279526448834809967) daily 👀 <br>
+➡️ Check out the live preview of the [Challenge Projects here](https://30daysof30projects.asharib.xyz/)✨
+
 ## 🎯 Challenge Overview
 
 - 🛠️ **Tech Stack:** TypeScript, TailwindCSS, Next.js, and more!
