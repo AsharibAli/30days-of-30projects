@@ -14,7 +14,8 @@ import {
 } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { Checkbox, CheckedState } from "@/components/ui/checkbox";
+import { Checkbox } from "@/components/ui/checkbox";
+import { CheckedState } from "@radix-ui/react-checkbox";
 import { Button } from "@/components/ui/button";
 
 // Default export of the GeneratePasswordComponent function
