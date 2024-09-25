@@ -162,7 +162,12 @@ export default function ExpenseTracker() {
     const { id, value } = e.target;
     setNewExpense((prevExpense) => ({
       ...prevExpense,
-      [id]: id === "amount" ? value : new Date(value),
+      [id]:
+        id === "amount"
+          ? parseFloat(value)
+          : id === "date"
+          ? new Date(value)
+          : value,
     }));
   };
 

@@ -7,7 +7,6 @@ import { CalendarIcon, StarIcon } from "lucide-react"; // Import icons from luci
 import Image from "next/image"; // Import Next.js Image component
 import ClipLoader from "react-spinners/ClipLoader";
 
-
 // Define the MovieDetails type
 type MovieDetails = {
   Title: string;
@@ -39,7 +38,7 @@ export default function MovieSearch() {
     setMovieDetails(null); // Reset movie details state
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?t=${searchTerm}&apikey=${process.env.NEXT_PUBLIC_OMDB_API_KEY}`
+        `https://www.omdbapi.com/?t=${searchTerm}&apikey=${process.env.NEXT_PUBLIC_OMDB_API_KEY}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
